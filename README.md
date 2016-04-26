@@ -1,2 +1,2 @@
 # personal-website
-Here lies ther personal website of Phillip Booth
+Here lies the personal website of Phillip Booth
