@@ -1,0 +1,43 @@
+
+/******* Header ********/
+.page-container{
+    width: 65%;
+}
+.header{
+    margin: 25px;
+    border-bottom-style: solid;
+    border-bottom-color: #555555;
+    border-bottom-width: 1px;
+}
+
+.left-header-button{
+    float: left;
+    border-color: #555555;
+    background-color: transparent;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.right-header-button{
+    float: right;
+    border-color: #555555;
+    background-color: transparent;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+
+.intro-image{
+    height: 400px;
+    width: 300px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #555555;
+    border-width: 2px;
+}
+
+.outer-content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
