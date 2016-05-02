@@ -1,6 +1,7 @@
 
 body{
     font-family: 'AvenirNext-Regular','Roboto Condensed', sans-serif;
+    font-size: 16px;
 }
 /******* nav bar ********/
 
@@ -14,7 +15,8 @@ body{
     left: 0;
     z-index: 9999;
     width: 100%;
-    height: 50px;
+    height: 3em;
+    background: #ffffff;
 }
 
 .menu{
@@ -48,20 +50,20 @@ body{
 }
 
 /******** Intro content ************/
-.intro-content-wrapper{
+#intro-content-wrapper{
     width: 100%;
-    position: fixed;
-    top: 175px;
+    position: relative;
+    top: 11em;
 }
 
-#intro-content{
+.content{
     width: 65%;
     margin: 0 auto;
 }
 
 h1 {
     font-style: normal;
-    font-size: 70px;
+    font-size: 4.5em;
 }
 
 h1 span {
@@ -70,10 +72,106 @@ h1 span {
 }
 
 #intro-image{
-    height: 400px;
-    width: 400px;
+    height: 385px;
+    width: 385px;
     margin: 0 auto;
 }
 
+section.spacer{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    background-color: #484848;
+    top: 12.2em;
+}
+
+.quote{
+    color: white;
+}
+
+.fade-in{
+    opacity: 0;
+}
+
+/*********** about-me-content-wrapper*************/
+
+#about-me-content-wrapper{
+    position: relative;
+    top: 13em;
+}
+
+
+.about-me-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1em;
+}
+
+.writing{
+    width: 40%;
+}
+
+.writing-left{
+    margin-top: 1em;
+}
+
+.extra-large-text{
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.projects-table{
+    margin-top: 1.1em;
+    margin-bottom: 1.1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1em;
+}
+
+.project-table-content{
+    width: 220px;
+    height: 145px;
+}
+
+.project-table-content p{
+    position: relative;
+    bottom: 97%;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.projects-table img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+/************Frogger-game**************/
+
+.frogger-header{
+    font-size: 3em;
+    font-style: italic;
+    margin-bottom: 1em;
+    border-bottom-color: #0f0f0f;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+#frogger{
+    position: relative;
+    top: 13em;
+}
+#frogger-game{
+    width: 100%;
+}
+
+.frogger-text{
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
 
 
