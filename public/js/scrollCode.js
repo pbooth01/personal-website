@@ -38,6 +38,7 @@ var ScrollModule = (function(){
       duration: 100,
       offset: 201
     })
+      .setPin('#main')
       .setTween(molly)
       .addTo(controller);
   }
