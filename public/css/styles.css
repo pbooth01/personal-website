@@ -6,13 +6,9 @@ body{
 
 section{
     position: relative;
-    top: 13em;
+    top: 15em;
 }
 /******* nav bar ********/
-
-#main{
-    height: 2000px;
-}
 
 .fixed-nav-bar{
     position: fixed;
@@ -194,4 +190,49 @@ section.spacer{
     margin-bottom: 2em;
 }
 
+/**********Project*************/
 
+.project-title-wrapper{
+    padding: 1em;
+    border-bottom-color: #0f0f0f;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.title-description{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.project-content-slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.texty-writing-content{
+    width: 45%;
+}
+
+.texty-writing-image{
+    margin-top: 20px;
+}
+
+.gif{
+    height: 400px;
+    width: 400px;
+}
+
+.under-the-hood{
+    margin-top: 4em;
+}
+
+.tech-pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
