@@ -132,8 +132,7 @@
     </section>
 
 
-
-    <section id="texty">
+    <section id="texty" style="display: none;">
         <div class="content">
             <div class="project-title-wrapper">
                 <h2 class="text-center project-title">Texty-Jukebox</h2>
@@ -192,6 +191,111 @@
                     SMS along with a “webhook” from Twillio to the webapp to recieve messages. In addition, it is
                     leveraging the YouTube API to search and load videos which are then loaded into an iframe.
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="rotorobot" >
+        <div class="content">
+            <div class="project-title-wrapper">
+                <h2 class="text-center project-title"><img src="/public/images/rotorobotlogo.jpg">otorobot</h2>
+                <h4 class="title-description text-center">
+                    A site to aggregate and analyze daily fantasy information.
+                </h4>
+            </div>
+            <div class="project-content-slide">
+                <div class="rotorobot-writing-content">
+                    <h2>All your fantasy sports info in one place</h2>
+                    <p>
+                        Last summer I had the chance to work alongside a couple of engineers to build out a
+                        site called Rotorobot.com. The idea behind the site was to create a way for people to
+                        quickly and efficiently create winning daily fantasy sports lineups. The site was about
+                        more than just bombarding users with stats and graphs. The goal was to use our software
+                        engineering skills to give people an actual chance against the sharks.
+                    </p>
+
+                    <h3>Stage 1) Feed The Machine</h3>
+                    <p>
+                        My first job was to work on the backend portion of the site and write PHP scripts that could
+                        be attached to some Cron Jobs in order to keep our database up to date with the latest
+                        fantasy sports information.
+                    </p>
+                    <p>
+                        Working with so muchdata was an incredible experience because it introduced me to the ideas
+                        that go into databse modeling, and how paring data the right way can greatly simplify
+                        creating useful relationships between your data down the road.
+                    </p>
+
+                    <h3>Stage 2) Crunch The Numbers</h3>
+                    <p>
+                        After realizing how much data we had available we decided that it was time to see what we could
+                        do with it. Another engineer and myself built a Nodejs backend that housed a lineup optimizer which
+                        would let you create lineups optimized on specific metrics for any given date (past or present).
+                    </p>
+
+                    <h3>Stage 3) Make It Responsive</h3>
+                    <p>
+                        The second job that I was tasked with was creating an interactive lineup builder that would
+                        allow users to test lineup combinations that adhered to Fanduel rules and regulations. Having
+                        spent the earlier part of the summer writing unit tests for a large scale Angular JS project,
+                        I figured I would put my new found logic to good use and implement the lineup builder with
+                        Angular Js.
+                    </p>
+                    <p>
+                      After the lineup builder was built the Nodejs backend was incorporated into it, allowing users to create
+                        optimized lineups on the metrics of their choice. In addition, we gave users the abiltiy to partially
+                        fill a lineup with specifc players and then fill out the remainder of the lineup with optimal choices.
+                    </p>
+
+                    <h3>Stage 4) Simplicity is Key</h3>
+                    <p>
+                        Recently I created a free lineup service for the site that would integrate directly into the Nodejs Server.
+                        Users can sign up to recieve daily lineup emails that will contain an optimized lineup for the current night's DFS
+                        contests.  Whether you're a new player starting out or someone that jsut wants a little bit of help getting
+                        started this service is a simple way to get yourself in the game.
+                    </p>
+
+                </div>
+                <div class="texty-writing-image">
+                    <h4 class="text-center">One of our free lineups!</h4>
+                    <img src="/public/images/lineupImage.jpg">
+                </div>
+            </div>
+
+            <div>
+                <h2 class="text-center">Comming Soon!</h2>
+                <h3 class="text-center">Rotorobot-FX</h3>
+
+                <div class="fx-pic">
+                    <img src="/public/images/rotorobot-fx.jpg">
+                </div>
+                
+                <p>
+                    For the past couple of weeks I have been working with one of the senior engineers on a project called
+                    Rotorobot-Fx. We're trying to create an internal development environment so people can interact directly
+                    with our data to develop their own algorithms for daily fantasy sports.
+                </p>
+                <p>
+                    The image above is for one of the wroking protoypes that I've created so far. In order to give the prototype
+                    a natural look and feel I replicated the CSS available for the open source Atom text editor and implemented
+                    the interactive functionality by packaging it up with Angularjs. The Code is being handled by a custom AngularJs
+                    Codemirror directive. In order to make the protoype useable the front and backend are being wired together using
+                    a websocket as the standard http request resonse structure would be much too slow.
+                </p>
+                <p>
+                    Still prototyping, but will hopefully have a demo working in a bit!
+                </p>
+            </div>
+            <div class="under-the-hood">
+                <h2 class="text-center"> Under The Hood</h2>
+                <div class="tech-pics">
+                    <img src="/public/images/html.jpg">
+                    <img src="/public/images/css.jpg">
+                    <img src="/public/images/symfony2.jpg">
+                    <img src="/public/images/javascript.jpg">
+                    <img src="/public/images/angualr.jpg">
+                    <img src="/public/images/node.jpg">
+                </div>
             </div>
         </div>
     </section>
