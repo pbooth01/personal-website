@@ -124,7 +124,7 @@ section.spacer{
 }
 
 .writing{
-    width: 40%;
+    width: 50%;
 }
 
 .writing-left{
@@ -132,7 +132,7 @@ section.spacer{
 }
 
 .extra-large-text{
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 800;
 }
 
@@ -251,5 +251,122 @@ section.spacer{
     margin-bottom: 2em;
 }
 
-/**********Twitter**************/
+/**********Verge**************/
+.wrapper {
+    max-width: 60em;
+    margin: 0 auto;
+}
 
+.features h3 {
+    margin-top: 0;
+    font-weight: 300;
+}
+.features p {
+    margin-bottom: 0;
+}
+
+article {
+    position: relative;
+}
+article:first-child h3 {
+    font-size: 3em;
+}
+article:last-child h3 {
+    font-size: 3em;
+}
+
+article > a {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    padding: 1rem;
+    color: #ffffff;
+    height: 100%;
+}
+article > a:hover .thumbnail {
+    opacity: 0.4;
+}
+
+article .thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: .9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+article h3, article .comments, article .meta {
+    position: relative;
+    z-index: 1;
+}
+article h3 {
+    font-family: 'AvenirNext-Regular','Roboto Condensed', sans-serif;
+    text-shadow: 1px 1px 1px #333333;
+    font-size: 2em;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.meta{
+    font-size: 1.5em;
+    font-weight: 100;
+    font-family: 'AvenirNext-Regular','Roboto Condensed', sans-serif;
+}
+
+@media all and (min-width: 40em) {
+    .features {
+        font-size: 0px;
+    }
+
+    article {
+        display: inline-block;
+        width: 50%;
+        min-height: 200px;
+        vertical-align: top;
+        font-size: 1rem;
+        overflow: hidden;
+    }
+    article:last-child {
+        width: 100%;
+    }
+
+    article > a {
+        position: absolute;
+        width: 100%;
+    }
+}
+@media all and (min-width: 70em) {
+    .features {
+        position: relative;
+        overflow: auto;
+    }
+
+    .wrapper {
+        margin-top: 1.5rem;
+    }
+
+    article {
+        display: block;
+        float: left;
+        min-height: 140px;
+        width: 33.3%;
+    }
+    article:first-child, article:last-child {
+        min-height: 280px;
+        width: 33.3%;
+    }
+    article:nth-child(5) {
+        clear: left;
+    }
+    article:last-child {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+    }
+}
