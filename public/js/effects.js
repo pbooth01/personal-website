@@ -1,4 +1,18 @@
-var ScrollEffectModule = (function(){
+var EffectsModule = (function(){
+
+  function throttle (callback, limit) {
+    var wait = false;
+
+    return function () {
+      if (!wait) {
+        callback.call();
+        wait = true;
+        setTimeout(function () {
+          wait = false;
+        }, limit);
+      }
+    }
+  }
 
   var fadeIn = function(){
     /* Check the location of each desired element */
@@ -38,15 +52,47 @@ var ScrollEffectModule = (function(){
     }
   }
 
+  /*handles the on scroll events that need to occur*/
+  var scrollFactory = function(){
+    var scrollTop = $(window).scrollTop();
 
+    if(scrollTop > 280){
+      $('#site-content').load('/public/templates/content-template.html');
+    }
+  };
+
+  /*handles template rendering from article clicks*/
+  var eventBlocker = function(){
+    $('article > a').click(function(event){
+      event.preventDefault();
+    });
+  };
+
+  var templateLoader = function(){
+
+    eventBlocker();
+
+    $('.features article').on('click', function(event){
+
+      var templateName = event.delegateTarget.dataset.template;
+
+      if(templateName){
+        templateName = templateName + '.html';
+        $('#template-holder').load("/public/templates/" + templateName, function(response, status, xhr){
+          if ( status == "error" ) {
+            var msg = "404 This project template does not exist";
+            $( "#template-holder" ).html( msg );
+          } else{
+            console.log('success');
+          }
+        })
+      }
+    });
+  };
 
   var ScrollEffects = function() {
-
     /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-      fadeIn();
-      bounce();
-    });
+    $(window).scroll(throttle(scrollFactory, 200));
   };
 
   var FroggerEffect = function(){
@@ -58,7 +104,8 @@ var ScrollEffectModule = (function(){
 
   return{
     initialize: ScrollEffects,
-    initializeFrogger: FroggerEffect
+    initializeFrogger: FroggerEffect,
+    templateLoader: templateLoader
   };
 
 })();

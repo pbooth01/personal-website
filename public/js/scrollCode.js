@@ -36,7 +36,7 @@ var ScrollModule = (function(){
     //sliding text off of screen
     new ScrollMagic.Scene({
       duration: 100,
-      offset: 201
+      offset: 200
     })
       .setPin('#main')
       .setTween(molly)

@@ -1,5 +1,6 @@
 $(function(){
   ScrollModule.initialize();
-  ScrollEffectModule.initialize();
-  ScrollEffectModule.initializeFrogger();
+  EffectsModule.initialize();
+  EffectsModule.initializeFrogger();
+  EffectsModule.templateLoader();
 });

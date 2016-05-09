@@ -4,9 +4,18 @@ body{
     font-size: 16px;
 }
 
-section{
+#main{
+    height: 800px;
+}
+
+#intro-content-wrapper, #about-me-content-wrapper{
     position: relative;
     top: 15em;
+}
+
+#template-content-holder{
+    position: relative;
+    top: 12em;
 }
 /******* nav bar ********/
 
@@ -108,12 +117,6 @@ section.spacer{
 }
 
 /*********** about-me-content-wrapper*************/
-
-/*#about-me-content-wrapper{
-    position: relative;
-    top: 13em;
-}
-*/
 
 
 .about-me-content{
@@ -254,7 +257,7 @@ section.spacer{
 /**********Verge**************/
 .wrapper {
     max-width: 60em;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .features h3 {
@@ -285,6 +288,7 @@ article > a {
 }
 article > a:hover .thumbnail {
     opacity: 0.4;
+    transform: scale(1.1,1.1);
 }
 
 article .thumbnail {
@@ -298,6 +302,10 @@ article .thumbnail {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+
+    transition: all .7s;
+    transform: scale(1,1);
+    z-index: -1;
 }
 
 article h3, article .comments, article .meta {
