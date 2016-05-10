@@ -5,7 +5,7 @@ body{
 }
 
 #main{
-    height: 800px;
+    height: 710px;
 }
 
 #intro-content-wrapper, #about-me-content-wrapper{
@@ -326,6 +326,7 @@ article h3 {
     font-family: 'AvenirNext-Regular','Roboto Condensed', sans-serif;
 }
 
+/*********Media Queries************/
 @media all and (min-width: 40em) {
     .features {
         font-size: 0px;
@@ -376,5 +377,41 @@ article h3 {
         bottom: 0;
         right: 0;
 
+    }
+}
+
+/**********animations**********/
+
+.fadeBottom{
+    animation-duration: 1.5s;
+    animation-name: slideBottom;
+}
+
+.fadeTop{
+    animation-duration: 1.5s;
+    animation-name: slideTop;
+}
+
+@keyframes slideBottom {
+    from {
+        transform: translate(0, 70px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    from {
+        transform: translate(0, -70px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
     }
 }

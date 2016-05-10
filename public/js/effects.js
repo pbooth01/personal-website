@@ -57,7 +57,9 @@ var EffectsModule = (function(){
     var scrollTop = $(window).scrollTop();
 
     if(scrollTop > 280){
-      $('#site-content').load('/public/templates/content-template.html');
+      if(!$('#template-holder').exists()){
+        $('#site-content').load('/public/templates/content-template.html');
+      }
     }
   };
 
