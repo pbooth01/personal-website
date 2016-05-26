@@ -14,6 +14,32 @@ var EffectsModule = (function(){
     }
   }
 
+  var check_if_in_view = function() {
+
+    //Cache reference to window and animation items. Move to differnt location so it's not being called everytime
+    var $animation_elements = $('.animation-element');
+    var $window = $(window);
+
+
+    var window_height = $window.height();
+    var window_top_position = $window.scrollTop();
+    var window_bottom_position = (window_top_position + window_height);
+
+    $.each($animation_elements, function() {
+      var $element = $(this);
+      var element_height = $element.outerHeight();
+      var element_top_position = $element.offset().top;
+      var element_bottom_position = (element_top_position + element_height);
+
+      //check to see if this current container is within viewport
+      if ((element_bottom_position >= window_top_position) &&
+        (element_top_position <= window_bottom_position)) {
+        $element.removeClass('hide');
+        $element.addClass('fadeBottom');
+      }
+    });
+  }
+
   var fadeIn = function(){
     /* Check the location of each desired element */
     $('.fade-in').each( function(i){
@@ -55,10 +81,17 @@ var EffectsModule = (function(){
   /*handles the on scroll events that need to occur*/
   var scrollFactory = function(){
     var scrollTop = $(window).scrollTop();
-
-    if(scrollTop > 280){
+    check_if_in_view();
+    if(scrollTop > 270){
       if(!$('#template-holder').exists()){
-        $('#site-content').load('/public/templates/content-template.html');
+        $('#intro-content-wrapper').css('display', 'none');
+        $('#site-content').load('/public/templates/content-template.html', function(){
+          templateLoader();
+        });
+      }
+    }else{
+      if($('#template-holder').exists()){
+        $('#intro-content-wrapper').css('display', 'initial');
       }
     }
   };
@@ -77,6 +110,7 @@ var EffectsModule = (function(){
     $('.features article').on('click', function(event){
 
       var templateName = event.delegateTarget.dataset.template;
+      var section = '#' + templateName.split('-')[0];
 
       if(templateName){
         templateName = templateName + '.html';
@@ -85,7 +119,9 @@ var EffectsModule = (function(){
             var msg = "404 This project template does not exist";
             $( "#template-holder" ).html( msg );
           } else{
-            console.log('success');
+            $('.about-me-content').slideUp();
+            $(section).slideDown(1000);
+            console.log(section);
           }
         })
       }

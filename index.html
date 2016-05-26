@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="/public/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="/public/css/styles.css">
     <link rel="stylesheet" href="/public/css/jquery-ui-theme.css">
+    <link rel="stylesheet" href="/public/css/animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -24,40 +26,86 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
     <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js" integrity="sha256-0vBSIAi/8FxkNOSKyPEfdGQzFDak1dlqFKBYqBp1yC4=" crossorigin="anonymous"></script>
-
-    <script src="/public/js/plugins/animation.gsap.js"></script>
-    <script src="/public/js/plugins/wrapEach.js"></script>
     <script src="/public/js/bootstrap.min.js"></script>
-    <script src="/public/js/scrollCode.js"></script>
-    <script src="/public/js/effects.js"></script>
+    <script src="/public/js/wow.js"></script>
 </head>
 <body>
-<div id="main" class="page-container">
-    <nav class="fixed-nav-bar">
-        <div class="menu">
-            <button class="btn left-header-button">Phillip Booth</button>
-            <button class="btn right-header-button">phillip.booth2015@gmail.com</button>
-        </div>
-    </nav>
-
-    <div id="site-content">
-        <section id="intro-content-wrapper">
-            <div class="content text-center">
-                <div id="first-intro-slide">
-                    <h1 id="intro-text" class="scrollMagic-text"><span>Hello</span>, <span> I'm</span>
-                        <span>P</span><span>h</span><span>i</span><span>l</span><span>l</span><span>i</span><span>p</span>
-                    </h1>
-                    <div>
-                        <img class="img-responsive" id="intro-image" src="/public/images/treehug.jpg">
+<div class="fixed-nav">
+    <div class="nav-content">
+        <button class=" btn btn-left nav-btn">Home <i class="fa fa-home" aria-hidden="true"></i></button>
+        <button class=" btn btn-right nav-btn">Email <i class="fa fa-envelope" aria-hidden="true"></i></button>
+    </div>
+</div>
+<div class="container">
+    <div class="content">
+        <div class="width-control">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center wow bounceInDown">Hello, I'm Phillip</h1>
+                </div>
+                <div class="col-md-12">
+                    <div class="profile-image-wrapper">
+                        <img id="profile-image" class=' wow bounceInUp img-circle img-responsive'src="/public/images/profile.jpg">
                     </div>
                 </div>
             </div>
-        </section>
+
+            <div class="row info-wrapper">
+                <div class="col-md-4 wow fadeInLeft">
+                    <p class="text-center index-icon"> <i class="fa fa-envelope" aria-hidden="true"></i></p>
+                    <p class="text-center info-text">phillip.booth2015@gmail.com</p>
+                </div>
+                <div class="col-md-4 wow fadeInUp">
+                    <p class="text-center index-icon"> <i class="fa fa-phone" aria-hidden="true"></i></p>
+                    <p class="text-center info-text">(978)-994-9392</p>
+                </div>
+                <div class="col-md-4 wow fadeInRight">
+                    <p class="text-center index-icon"> <i class="fa fa-map-marker" aria-hidden="true"></i></p>
+                    <p class="text-center info-text">Boston Massachuesetts</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 wow fadeInUp">
+                    <h2>Me</h2>
+                    <p class="small-text">Tufts University Grad. Fullstack engineer. Guacamole addict</p>
+                </div>
+                <div class="col-md-5 wow fadeInUp">
+                    <h3>I Build Technology For The Web</h3>
+                    <p class="profile-text">
+                        My name is Phillip Booth and I'm a Software Engineer from Boston, Massachesetts.
+                        I'm obsessed with the web, and enjoy nothing more than the process of
+                        bringing ideas to life with technology and design.
+                    </p>
+                    <p class="profile-text">
+                        I graduated from Tufts University in December of 2015 with a B.S. in Cognitive
+                        & Brain Science / Computer Science. I love learning and being challenged, and am
+                        happiest whenever I'm building something new with fun technology.
+                    </p>
+                </div>
+                <div class="col-md-2 wow fadeInUp">
+                    <img class="img-responsive tufts-logo" src="/public/images/tuftslogo.jpeg">
+                </div>
+                <div class="col-md-5 wow fadeInUp">
+                    <p class="profile-text-right">
+                        Although I make it a point to do some sort of programming everyday I also
+                        think it's important to step away from the computer from time to time.
+                    </p>
+                    <p class="profile-text">
+                        When I'm not nerding out behind my computer you can find me running, hiking,
+                        or lounging away on my hammock with a cold IPA.
+                    </p>
+                </div>
+            </div>
+
+        </div>
     </div>
 </div>
 
-
 <!-- SCRIPTS -->
-<script src="/public/js/logic.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script src="/public/js/indexLogic.js"></script>
 </body>
 </html>

@@ -8,8 +8,8 @@ var ScrollModule = (function(){
     var imageWidth = $('#intro-image').outerWidth();
 
     var laola = new TimelineMax()
-      .add(TweenMax.staggerTo(".content h1 span", 1, {top: -100, x: -75, scale: 3, color: '#000000'}, 0.7))
-      .add(TweenMax.staggerTo(".content h1 span", 1, {top: 0, x: 0, scale: 1, color: '#000000'}, 0.7), 1);
+      .add(TweenMax.staggerTo(".width-control h1 span", 1, {top: -100, x: -75, scale: 3, color: '#000000'}, 0.7))
+      .add(TweenMax.staggerTo(".width-control h1 span", 1, {top: 0, x: 0, scale: 1, color: '#000000'}, 0.7), 1);
 
     var molly = new TimelineMax()
       .add(TweenMax.to("#intro-image", 2, {x: (w/2 + imageWidth)}))
