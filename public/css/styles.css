@@ -11,7 +11,7 @@ body{
 
 .content{
     position: relative;
-    top: 100px;
+    top: 85px;
 }
 
 .spacer{
@@ -82,19 +82,15 @@ body{
     font-weight: 700;
 }
 
-#profile-writing{
-    height: 325px;
-    width: 325px;
-
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-
-    opacity: 0;
+.intro-text{
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: lightgrey;
+    display: inline-block;
 }
-
 /*****************************/
 
 /*********** contact info **********/
@@ -106,6 +102,8 @@ body{
     border-bottom: solid;
     border-bottom-width: 1px;
     border-bottom-color: lightgrey;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 /********** personal *************/
@@ -125,6 +123,46 @@ body{
     margin-top: 70px;
     margin-bottom: 25px;
 }
+
+/**********************************/
+
+/********** projects **************/
+.projects-wrapper{
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+
+.project-slide-wrapper{
+    margin: auto;
+    position: relative;
+    width: 273px;
+    color: #404040;
+    font-weight: 600;
+    font-size: 1.2em;
+    transition: all .5s ease-in-out;
+}
+
+.project-slide-wrapper:hover{
+    transform: scale(1.2);
+}
+
+.project-slide-title{
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: translateX(-50%);
+}
+
+.project-slide{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.75);
+    border: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+
+/**********************************/
 
 
 
