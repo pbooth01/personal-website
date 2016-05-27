@@ -44,6 +44,7 @@ body{
     border: solid;
     border-width: 1px;
     border-color: lightgrey;
+    color: black;
 }
 
 .btn-left{
@@ -57,6 +58,10 @@ body{
 /****************************************/
 
 /********* profile image effects ***************/
+
+.title{
+    font-weight: 600;
+}
 
 .profile-image-wrapper{
     margin-top: 50px;
@@ -82,15 +87,6 @@ body{
     font-weight: 700;
 }
 
-.intro-text{
-    padding-bottom: 25px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-bottom: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: lightgrey;
-    display: inline-block;
-}
 /*****************************/
 
 /*********** contact info **********/
@@ -163,6 +159,62 @@ body{
 }
 
 /**********************************/
+
+/*******All Project Pages *********/
+.project-title{
+    font-size: 5rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.project-description{
+    margin-bottom: 25px;
+}
+
+.small-underline{
+    height: 1px;
+    width: 200px;
+    margin: 0 auto;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-color: lightgrey;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.tech-pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tech-pics > *{
+    margin: 10px;
+}
+/**********************************/
+
+/*******Miscellaneaous Project Page*********/
+
+#frogger-game{
+    width: 565px;
+    height: 600px;
+}
+
+.game-wrapper{
+    width: 565px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#frogger-image{
+   margin: 0 auto;
+}
+
+.frogger-description{
+    margin-bottom: 25px;
+}
+
+/*******************************************/
 
 
 
