@@ -186,10 +186,17 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 .tech-pics > *{
     margin: 10px;
+}
+
+.center-img{
+    margin: 0 auto;
 }
 /**********************************/
 
@@ -204,6 +211,11 @@ body{
     width: 565px;
     height: 600px;
     margin: 0 auto;
+    margin-bottom: 55px;
+}
+
+.game-pic-wrapper{
+    margin-bottom: 25px;
 }
 
 #frogger-image{
@@ -213,6 +225,25 @@ body{
 .frogger-description{
     margin-bottom: 25px;
 }
+
+.chowser-img{
+    border: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.chowser-features-img{
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.chowser-title{
+    margin-bottom: 50px;
+}
+
 
 /*******************************************/
 
