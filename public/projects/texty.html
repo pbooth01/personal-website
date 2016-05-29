@@ -48,103 +48,99 @@
         <div class="width-control">
             <div class="row project-title-wrapper wow bounceInDown">
                 <div class="col-md-12">
-                    <h1 class="text-center project-title">Random</h1>
-                    <h3 class="text-center project-description">Some ways I've chosen to spend my time.</h3>
+                    <h1 class="text-center project-title">Texty-Jukebox <a class='text-center' href="http://jukebox.setfive.com/"><i class="fa fa-external-link" aria-hidden="true"></i></a></h1>
+                    <h3 class="text-center project-description">Allow your night to be powered by the people who matter most.</h3>
                     <div class="small-underline"></div>
                 </div>
             </div>
 
-            <div class="row frogger-wrapper">
+            <div class="row">
                 <div class="col-md-10 col-md-offset-1 wow fadeInUp">
-                    <h2 class="text-center">Jump Around</h2>
-                    <p class="frogger-description">
-                        One fine, Saturday morning I happened to be particularly bored, and came
-                        across a sprite sheet for the game Frogger. Since this was one of my
-                        favorite games to play as a kid I decided to recreate it using javascript and the
-                        HTML5 canvas.
-                    </p>
-                    <h4 class="text-center visible-lg">If you're bored click inside and give it a whirl!</h4>
+                    <h2 class="text-center">Text Me</h2>
+                    <div class="description">
+                        <p class="description">
+                            Picture the scene, it’s Friday night, you’ve got friends over and everyone wants to listen to some great music.
+                            The problem is everyone wants to jam to something different and you’re not thrilled to sit by your laptop all
+                            night. Enter, the Txty-Jukebox.
+                        </p>
+                        <p>
+                            Txty-Jukebox lets you setup an event which creates you a unique number which users can text in song requests to.
+                            As TxtyJukebox receives song requests, it searches YouTube for music videos and then places the videos into your
+                            event’s queue. And then if you hook up TxtyJukebox to a TV you’ll be able to jam to videos on a big screen with big room
+                            sound.
+                        </p>
+                    </div>
                 </div>
+                <div class="col-md-12 wow fadeInUp">
+                    <img class="img-responsive center-img" src="/public/images/texty-image1.jpg">
+                </div>
+            </div>
+            <div class="row texty-extra-info wow fadeInUp">
+                <h2 class="text-center">Simplicity is Key</h2>
+                <div class="col-md-4">
+                    <h3 class="text-center">1.</h3>
+                    <p class="text-center">
+                        You create an event and we give you a phone number.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-center">2.</h3>
+                    <p class="text-center">
+                        People text in song requests to the number.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-center">3.</h3>
+                    <p class="text-center">
+                        Requests automagically queue up YouTube videos.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 wow fadeInUp">
+                    <img class="img-responsive center-img"src="/public/images/apppic.gif">
+                </div>
+                <div class="col-md-6 wow fadeInUp">
+                    <h2>Sometimes it feels like you need to download an app to do anything.</h2>
+                    <p class="profile-text">
+                        The driving force behind this application was ACCESSIBILITY. Everywhere you turn
+                        it seems like you are being pestered to download somebody's app no matter how small
+                        the service.
+                    </p>
+                    <p class="profile-text">
+                        I wanted to build something that could be used by anyone seamlessly, and cell phones
+                        are a ubiquitous part of life. Text-messaging is a very natural way for people
+                        to communicate so I chose it as the medium to build the application around.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 wow fadeInUp">
+                    <h2 class="profile-text">The Nitty Gritty</h2>
+                    <p class="profile-text">
+                        The webapp itself is a standard Symfony2 app along with the usual suspects – Bootstrap,
+                        Underscore, and a sprinkling of jQuery. Along with that, it uses Twillio’s REST API to handle
+                        SMS along with a “webhook” from Twillio to the webapp to recieve messages. In addition, it is
+                        leveraging the YouTube API to search and load videos which are then loaded into an iframe.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-md-12">
-                    <div class="visible-xs visible-s game-pic-wrapper">
-                        <img id="frogger-image" class='wow fadeInUp img-responsive'src="/public/images/frogger.jpg">
-                    </div>
-                    <div class="game-wrapper visible-lg wow fadeInUp">
-                        <iframe class="text-center" id="frogger-game" src="/public/sites/frogger/index.html"></iframe>
-                    </div>
                     <div class="under-the-hood wow fadeInUp">
                         <h2 class="text-center"> Under The Hood</h2>
                         <div class="tech-pics">
-                            <img class='img-responsive' src="../images/html.jpg">
+                            <img class='img-responsive' src="../images/bootstrap.jpg">
                             <img class='img-responsive' src="../images/css.jpg">
                             <img class='img-responsive' src="../images/javascript.jpg">
+                            <img class='img-responsive' src="../images/symfony2.jpg">
                             <img class='img-responsive' src="../images/jquery.jpg">
+                            <img class='img-responsive' src="../images/underscore.png">
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="row chowsr-wrapper">
-
-                <div class="row">
-                    <div class="col-md-12 wow fadeInUp">
-                        <h2 class="text-center">Chowsr.com</h2>
-                        <p class="text-center">
-                            Because making those late night food descions is always the hardest.
-                        </p>
-                        <div class="col-md-12">
-                            <img class="img-responsive center-img chowser-img" src="/public/images/chowser.jpg">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="chowser-description">
-                    <div class="col-md-10 col-md-offset-1 wow fadeInUp">
-                        <p class="profile-text">
-                            As a college student late nights were always part of my everyday life.  Whether it was
-                            cramming for a test or killing time on Reddit, my friends and me often found ourselves
-                            up late into the night and in need of food to keep us going.
-                        </p>
-                        <p class="profile-text">
-                            My sophmore year I noticed just how hard it was to make food decisions with my friends, so
-                            I got 4 of my engineering frineds together and we built Chowsr.com.
-                        </p>
-                        <p class="profile-text">
-                            The goal of the site was very simple. Give people and their frineds a way to not just know
-                            what food was available around them, but to actually make a decision without wasting hours
-                            deliberating.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="chowser-features">
-                    <div class="col-md-6 wow fadeInUp">
-                        <img class="img-responsive chowser-features-img" src="/public/images/chowser-features.jpg">
-                    </div>
-                    <div class="col-md-6 wow fadeInUp">
-                        <h2>Features</h2>
-                        <p>
-                            The site offered users multiple ways to select from the food around them.
-                        </p>
-
-                        <p>
-                            1) ChowBrow, Netflix style browsing of local food.
-                        </p>
-                        <p>
-                            2) Swipester, a Tinder inspired suggestion interface (yes Tinder was a thing back then)
-                        </p>
-                        <p>
-                            3) Wheel of Food, a wheel full of the highest rated food around you.
-                        </p>
-                        <p>
-                            4) Food Bracket, March Madness inspired selection. Allow restaurants to be pitted against one another.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
             <div class="small-underline"></div>
-
             <div class="row projects-wrapper">
                 <div class="row projects-row">
                     <div class="col-md-6 wow fadeInUp">

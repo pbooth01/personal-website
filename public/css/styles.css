@@ -1,6 +1,7 @@
 
 body{
     font-family: 'AvenirNext-Regular','Roboto Condensed', sans-serif;
+    -webkit-font-smoothing: antialiased !important;
     font-size: 16px;
 }
 
@@ -16,6 +17,10 @@ body{
 
 .spacer{
     height: 75px;
+}
+
+.email-footer{
+    color: #333;
 }
 
 /*************Navbar**************/
@@ -36,15 +41,24 @@ body{
     border-bottom: solid;
     border-bottom-width: 1px;
     border-bottom-color: lightgrey;
+    display: flex;
+    justify-content: space-around;
 }
 
 .nav-btn{
     background-color: transparent;
-    margin: 20px;
+    margin-top: 20px;
     border: solid;
     border-width: 1px;
     border-color: lightgrey;
     color: black;
+    width: 100px;
+    height: 40px;
+    transition: all .5s ease-in-out;
+}
+
+.nav-btn:hover{
+    transform: scale(1.2);
 }
 
 .btn-left{
@@ -95,9 +109,6 @@ body{
 }
 
 .info-wrapper{
-    border-bottom: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: lightgrey;
     margin-top: 50px;
     margin-bottom: 25px;
 }
@@ -107,7 +118,8 @@ body{
     width: 150px;
     height: 150px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .profile-text{
@@ -124,7 +136,7 @@ body{
 
 /********** projects **************/
 .projects-wrapper{
-    margin-top: 75px;
+    margin-top: 30px;
     margin-bottom: 40px;
 }
 
@@ -162,7 +174,7 @@ body{
 
 /*******All Project Pages *********/
 .project-title{
-    font-size: 5rem;
+    font-size: 4.4rem;
     font-weight: 500;
     margin-bottom: 25px;
 }
@@ -193,6 +205,10 @@ body{
 
 .tech-pics > *{
     margin: 10px;
+}
+
+.description{
+    margin-bottom: 25px;
 }
 
 .center-img{
@@ -227,11 +243,11 @@ body{
 }
 
 .chowser-img{
-    border: solid;
-    border-width: 1px;
-    border-color: lightgrey;
     margin-bottom: 50px;
     margin-top: 50px;
+    border-right: solid;
+    border-right-width: 1px;
+    border-right-color: grey;
 }
 
 .chowser-features-img{
@@ -243,9 +259,42 @@ body{
 .chowser-title{
     margin-bottom: 50px;
 }
-
-
 /*******************************************/
+
+/***********Texty PRoject page*************/
+.texty-extra-info{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/******************************************/
+
+/**********Rotorobot*******************/
+.lineup-description{
+    margin-top: 50px;
+}
+
+.fx-img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.comming-soon{
+    margin-top: 25px;
+}
+/*************************************/
+
+/************Setfive*****************/
+.setfive-projects-wrapper{
+    margin-top: 40px;
+}
+
+.pspeak-wrapper{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/************************************/
 
 
 

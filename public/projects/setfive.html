@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>Hi, I'm Phil</title>
+    <meta name="description" content="personal website of Phillip Booth">
+    <meta name="author" content="Phillip Booth">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/public/css/styles.css">
+    <link rel="stylesheet" href="/public/css/jquery-ui-theme.css">
+    <link rel="stylesheet" href="/public/css/animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="/public/js/jquery-2.2.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js" integrity="sha256-0vBSIAi/8FxkNOSKyPEfdGQzFDak1dlqFKBYqBp1yC4=" crossorigin="anonymous"></script>
+    <script src="/public/js/bootstrap.min.js"></script>
+    <script src="/public/js/wow.js"></script>
+</head>
+<body>
+<div class="fixed-nav">
+    <div class="nav-content">
+        <a href="/">
+            <button class=" btn btn-center nav-btn">Home <i class="fa fa-home" aria-hidden="true"></i></button>
+        </a>
+        <a href="https://github.com/pbooth01">
+            <button class=" btn btn-center nav-btn">Github <i class="fa fa-github" aria-hidden="true"></i></button>
+        </a>
+        <a href="mailto:phillip.booth2015@gmail.com?subject=Personal%20Website%20Inquiry">
+            <button class=" btn btn-right nav-btn">Email <i class="fa fa-envelope" aria-hidden="true"></i></button>
+        </a>
+    </div>
+</div>
+<div class="container">
+    <div class="content">
+        <div class="width-control">
+            <div class="row project-title-wrapper wow bounceInDown">
+                <div class="col-md-12">
+                    <h1 class="text-center project-title">Setfive Summer</h1>
+                    <h3 class="text-center project-description">My time at Setfive.</h3>
+                    <div class="small-underline"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-7 wow fadeInUp">
+                    <h2>Life is about more than just C++</h2>
+                    <p class="profile-text">
+                        For the last year, I've been lucky enough to be a part of the engineering team at Setfive Consulting.
+                    </p>
+                    <p class="profile-text">
+                        I started in the summer of 2015, and was lucky enough to be able to stay on while
+                        I finished out my computer science degree at Tufts.
+                    </p>
+                    <p>
+                        I learned a ton during that time and made the transition from a C / C++ developer to a web engineer, one comfortable
+                        working with any part of the stack. In addition to improving my software development skills I was able to gain an
+                        in depth understanding of web technologies, and how these technologies fit together to build large scale applications.
+                    </p>
+                </div>
+                <div class="col-md-5 wow fadeInUp">
+                    <p class="visible-lg visible-md">
+                        <iframe
+                                width="350"
+                                height="350"
+                                frameborder="0" style="border:0"
+                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDUpp59oKV8NgrHLY6FCwXS6mKDpoL6sH4&q=Setfive+Consulting,Cambridge+MA" allowfullscreen>
+                        </iframe>
+                    </p>
+                    <img class="img-responsive center-img visible-xs visible-sm" src="/public/images/google-maps.png">
+                </div>
+            </div>
+            <div class="row setfive-projects-wrapper wow fadeInUp">
+                <div class="col-md-12">
+                    <h2 class="text-center">What I worked on.</h2>
+                    <div class="small-underline"></div>
+                </div>
+                <div class="col-md-10 col-md-offset-1">
+                    <p class="profile-text">
+                        Since Setfive is a technology consulting firm they build out technological solutions for a multitude clients.
+                        I was given the chance to work on a large number of projects ranging all over the board.
+                    </p>
+                    <p class="profile-text">
+                        I started my time at Setfive working underneath one of the senior level engineers, writing integration tests, and
+                        moved on to building out technology for clients.
+                    </p>
+
+                    <p class="profile-text">
+                        Here is some of the stuff I worked on.
+                    </p>
+                </div>
+            </div>
+            <div class="row pspeak-wrapper">
+                <div class="col-md-12 wow fadeInUp">
+                    <img class="img-responsive center-img"src="/public/images/pspeak.jpg">
+                </div>
+                <div class="col-md-10 col-md-offset-1 wow fadeInUp">
+                    <h2 class="text-center">Pspeak.com <a class='text-center' href="https://www.pspeak.com/"><i class="fa fa-external-link" aria-hidden="true"></i></a></h2>
+                    <p class="profile-text">
+                        My first client project was Pspeak.com, an online public speaking training platform.
+                        I worked on the frontend of the site and was also tasked with updating backend code to handle pricing and
+                        making some improvements to their system that handled cycling coupon codes for users.
+                    </p>
+                    <p class="profile-text">
+                        In building the site I had the opportunity to work alongside both designers and engineers. It was an incredibly rewarding
+                        experince that taught me a lot about working in a team setting, and effectivley communicating with all members of a cross
+                        functional team.
+                    </p>
+                    <p class="profile-text">
+                        It's very easy to forget that not everyone is an engineer and knows the differnence between DOM manipulation using JQuery
+                        and a CSS transition. When working on a team being able to ask the right questions and help someone understand the technical solutions that you are
+                        implementing to bring their ideas to frution is just as, if not more important, than writing the code itself.
+                    </p>
+                </div>
+                <div class="under-the-hood wow fadeInUp">
+                    <h2 class="text-center"> Under The Hood</h2>
+                    <div class="tech-pics">
+                        <img class="img-responsive" src="/public/images/bootstrap.jpg">
+                        <img class="img-responsive" src="/public/images/symfony2.jpg">
+                        <img class="img-responsive" src="/public/images/jquery.jpg">
+                        <img class="img-responsive" src="/public/images/less.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="row cvet-wrapper">
+                <div class="col-md-12 wow fadeInUp">
+                    <img class="img-responsive center-img cvet-img"src="/public/images/cvetlarge.jpg">
+                </div>
+                <div class="col-md-10 col-md-offset-1 wow fadeInUp">
+                    <h3 class="text-center">CVET <a class='text-center' href="http://www.customervalueexpert.com/"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                    <p class="profile-text">
+                        After working on Pspeak I was tasked with building out a brochure site for one of our clients
+                        CVET, a software company that acts a s a platform for quantifying the goods and services being offered
+                        by businesses. The site was in need of some serious structure, and needed to be built in a way that would allow
+                        for additional content to be added painlessly in the future.
+                    </p>
+                    <p class="profile-text">
+                        In order to give the site some structure I decided to switch it over to the Sillex web framework.  I chose Sillex
+                        becuse it was a PHP based micro-frame work made up of Symfony components so any one of the other engineers in the
+                        office could easily make upates if need be. I decided that becuse the site was only static content, and didn't
+                        require and ORM or any way to connect to a database that the full blown Symfony2 framework would require too much
+                        overhead.
+                    </p>
+                    <p class="profile-text">
+                        In addition to the structural changes I added some updates to make the site more mobile responsive.
+                    </p>
+                </div>
+                <div class="under-the-hood wow fadeInUp">
+                    <h2 class="text-center"> Under The Hood</h2>
+                    <div class="tech-pics">
+                        <img class="img-responsive" src="/public/images/bootstrap.jpg">
+                        <img class="img-responsive" src="/public/images/silex.jpg">
+                        <img class="img-responsive" src="/public/images/less.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="row extra-info">
+                <div class="col-md-10 col-md-offset-1 wow fadeInUp">
+                    <h4
+                        class="text-center"> In addition to building software I also had the chance to write for the
+                        <a href="http://shout.setfive.com/author/phil/">Setfive Blog</a>
+                    </h4>
+                    <div class="small-underline"></div>
+                </div>
+            </div>
+            <div class="row food">
+                <div class="col-md-10 col-md-offset-1 wow fadeInUp">
+                    <p class="text-center">
+                        One of the Perks of working in Cambridge was the amazing food selection. I'm a huge foodie so this was honsetly
+                        a dream come true.
+                    </p>
+                    <p class="text-center">
+                        Here are some of my favorite dishes.
+                    </p>
+                </div>
+                <div class="col-md-12">
+                    <div class="tech-pics wow fadeInUp">
+                        <img class='img-responsive img-circle' src="../images/salad.jpg">
+                        <img class='img-responsive img-circle' src="../images/pork.jpg">
+                        <img class='img-responsive img-circle' src="../images/padthai.jpg">
+                        <img class='img-responsive img-circle' src="../images/burger.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="small-underline"></div>
+            <div class="row projects-wrapper">
+                <div class="row projects-row">
+                    <div class="col-md-6 wow fadeInUp">
+                        <a href="/public/projects/rotorobot.html">
+                            <div class="project-slide-wrapper">
+                                <img class="img-responsive project-slide" src="/public/images/rotorobot.jpg">
+                                <div class="project-slide-title">
+                                    <p>Rotorobot</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 wow fadeInUp">
+                        <a href="/public/projects/texty.html">
+                            <div class="project-slide-wrapper">
+                                <img class="img-responsive project-slide" src="/public/images/Texty-Jukebox.jpg">
+                                <div class="project-slide-title">
+                                    <p>Txty-Jukebox</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row projects-row">
+                    <div class="col-md-6 wow fadeInUp">
+                        <a href="/public/projects/miscellaneous.html">
+                            <div class="project-slide-wrapper">
+                                <img class="img-responsive project-slide" src="/public/images/muir.png">
+                                <div class="project-slide-title">
+                                    <p>Random</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 wow fadeInUp">
+                        <a href="/public/projects/setfive.html">
+                            <div class="project-slide-wrapper">
+                                <img class="img-responsive project-slide" src="/public/images/setfiveTeam.jpg">
+                                <div class="project-slide-title">
+                                    <p>Setfive</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SCRIPTS -->
+<script>
+    new WOW().init();
+</script>
+<script src="/public/js/indexLogic.js"></script>
+</body>
+</html>
