@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91d665a0-8f88-4ebf-ada6-9247efd7449e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/sites/frogger" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/templates/content-template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/templates/cvet-template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/templates/frogger-template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/templates/pspeak-template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/templates/rotorobot-template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/templates/texty-template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/templates/twitter-template.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/projects/miscellaneous.html" afterPath="$PROJECT_DIR$/public/projects/random.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/projects/rotorobot.html" afterPath="$PROJECT_DIR$/public/projects/rotorobot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/projects/setfive.html" afterPath="$PROJECT_DIR$/public/projects/setfive.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/projects/texty.html" afterPath="$PROJECT_DIR$/public/projects/texty.html" />
     </list>
     <ignored path="personalWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +39,38 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="1335">
+              <caret line="89" column="63" selection-start-line="89" selection-start-column="63" selection-end-line="89" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="random.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/projects/random.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="172" column="63" selection-start-line="172" selection-start-column="63" selection-end-line="172" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rotorobot.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/projects/rotorobot.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="201" column="22" selection-start-line="201" selection-start-column="22" selection-end-line="201" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setfive.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/projects/setfive.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="221" column="55" selection-start-line="221" selection-start-column="55" selection-end-line="221" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -37,8 +79,8 @@
       <file leaf-file-name="texty.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/projects/texty.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+            <state relative-caret-position="101">
+              <caret line="169" column="63" selection-start-line="169" selection-start-column="63" selection-end-line="169" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -85,13 +127,14 @@
         <option value="$PROJECT_DIR$/public/js/indexLogic.js" />
         <option value="$PROJECT_DIR$/public/templates/rotorobot-template.html" />
         <option value="$PROJECT_DIR$/public/templates/texty-template.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/public/projects/rotorobot.html" />
-        <option value="$PROJECT_DIR$/public/projects/setfive.html" />
         <option value="$PROJECT_DIR$/public/projects/miscellaneous.html" />
-        <option value="$PROJECT_DIR$/public/projects/texty.html" />
         <option value="$PROJECT_DIR$/public/css/styles.css" />
         <option value="$PROJECT_DIR$/public/sites/frogger/test/test.html" />
+        <option value="$PROJECT_DIR$/public/projects/random.html" />
+        <option value="$PROJECT_DIR$/public/projects/rotorobot.html" />
+        <option value="$PROJECT_DIR$/public/projects/setfive.html" />
+        <option value="$PROJECT_DIR$/public/projects/texty.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -165,7 +208,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,12 +328,12 @@
       <workItem from="1464459274050" duration="25968000" />
       <workItem from="1464741383567" duration="12000" />
       <workItem from="1464741586113" duration="210000" />
-      <workItem from="1464890574487" duration="189000" />
+      <workItem from="1464890574487" duration="529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211986000" />
+    <option name="totallyTimeSpent" value="212326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -608,35 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/projects/rotorobot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="208" column="45" selection-start-line="208" selection-start-column="45" selection-end-line="208" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/projects/setfive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="226" column="45" selection-start-line="226" selection-start-column="45" selection-end-line="226" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/projects/miscellaneous.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="176" column="45" selection-start-line="176" selection-start-column="45" selection-end-line="176" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/projects/texty.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2640">
@@ -653,10 +667,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/projects/random.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="172" column="63" selection-start-line="172" selection-start-column="63" selection-end-line="172" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/projects/rotorobot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="201" column="22" selection-start-line="201" selection-start-column="22" selection-end-line="201" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/projects/setfive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="221" column="55" selection-start-line="221" selection-start-column="55" selection-end-line="221" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/projects/texty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="169" column="63" selection-start-line="169" selection-start-column="63" selection-end-line="169" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="1335">
+          <caret line="89" column="63" selection-start-line="89" selection-start-column="63" selection-end-line="89" selection-end-column="63" />
           <folding />
         </state>
       </provider>
