@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91d665a0-8f88-4ebf-ada6-9247efd7449e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/templates/content-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/templates/cvet-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/templates/frogger-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/templates/pspeak-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/templates/rotorobot-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/templates/texty-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/templates/twitter-template.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/projects/miscellaneous.html" afterPath="$PROJECT_DIR$/public/projects/random.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/projects/rotorobot.html" afterPath="$PROJECT_DIR$/public/projects/rotorobot.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/projects/setfive.html" afterPath="$PROJECT_DIR$/public/projects/setfive.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/projects/texty.html" afterPath="$PROJECT_DIR$/public/projects/texty.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/iframe/frogger/frogger.js" afterPath="$PROJECT_DIR$/public/iframe/frogger/frogger.js" />
     </list>
     <ignored path="personalWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1335">
               <caret line="89" column="63" selection-start-line="89" selection-start-column="63" selection-end-line="89" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frogger.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/iframe/frogger/frogger.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="505" column="19" selection-start-line="505" selection-start-column="19" selection-end-line="505" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -135,6 +133,7 @@
         <option value="$PROJECT_DIR$/public/projects/setfive.html" />
         <option value="$PROJECT_DIR$/public/projects/texty.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/public/iframe/frogger/frogger.js" />
       </list>
     </option>
   </component>
@@ -223,6 +222,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="personalWebsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="personalWebsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iframe" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frogger" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,12 +349,12 @@
       <workItem from="1464459274050" duration="25968000" />
       <workItem from="1464741383567" duration="12000" />
       <workItem from="1464741586113" duration="210000" />
-      <workItem from="1464890574487" duration="529000" />
+      <workItem from="1464890574487" duration="712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212326000" />
+    <option name="totallyTimeSpent" value="212509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -375,13 +396,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/indexLogic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -703,6 +717,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1335">
           <caret line="89" column="63" selection-start-line="89" selection-start-column="63" selection-end-line="89" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/iframe/frogger/frogger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="505" column="19" selection-start-line="505" selection-start-column="19" selection-end-line="505" selection-end-column="19" />
           <folding />
         </state>
       </provider>

@@ -503,6 +503,8 @@ function start_game(){
 			}
 		}
 
+		event.preventDefault();
+
 	});
 
 
