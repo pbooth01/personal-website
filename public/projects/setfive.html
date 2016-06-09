@@ -186,10 +186,10 @@
                 </div>
                 <div class="col-md-12">
                     <div class="tech-pics wow fadeInUp">
-                        <img class='img-responsive img-circle' src="../images/salad.jpg">
-                        <img class='img-responsive img-circle' src="../images/pork.jpg">
-                        <img class='img-responsive img-circle' src="../images/padthai.jpg">
-                        <img class='img-responsive img-circle' src="../images/burger.jpg">
+                        <a class='food-img' href="http://www.cinderellasbarandrestaurant.com/"><img class='img-responsive img-circle' src="../images/salad.jpg"></a>
+                        <a class='food-img' href="http://www.cinderellasbarandrestaurant.com/"><img class='img-responsive img-circle' src="../images/pork.jpg"></a>
+                        <a class='food-img' href="http://www.theloniousmonkfish.com/"><img class='img-responsive img-circle' src="../images/padthai.jpg"></a>
+                        <a class='food-img' href="http://www.charlieskitchen.com/"><img class='img-responsive img-circle' src="../images/burger.jpg"></a>
                     </div>
                 </div>
             </div>
@@ -247,6 +247,7 @@
 <!-- SCRIPTS -->
 <script>
     new WOW().init();
+    $('.tech-pics .food-img').hover(function(){$(this).addClass('animated infinite rubberBand');}, function(){$(this).removeClass('animated infinite rubberBand');});
 </script>
 <script src="/public/js/indexLogic.js"></script>
 </body>
